@@ -17,7 +17,7 @@
                 </div>
 
                 <!-- Boards -->
-                <div class="py-5 grid grid-cols-3 md:flex md:flex-wrap">
+                <div class="py-5 px-5 md:px-0 grid grid-cols-3 md:flex md:flex-wrap">
                     <div
                         class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-orange-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-orange-400">
                         <div class="rounded-full hidden md:inline">
@@ -175,8 +175,8 @@
 
 
         <!-- Threads -->
-        <div class="my-2 mx-2 thread-container grid grid-cols-1 md:grid-cols-7">
-            <div class="thread mx-2 my-1">
+        <div class="my-2 mx-2 thread-container md:grid md:grid-cols-7">
+            <div class="thread mx-2 my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500 cursor-pointer">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -211,7 +211,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/300/200">
                 <h3 id="thread-subject" class="subpixel-antialiased font-semibold truncate">Thread subject</h3>
                 <p id="thread-post" class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -222,7 +222,7 @@
                     viverra adipiscing at in tellus.</p>
             </div>
 
-            <div class="thread mx-2 my-1">
+            <div class="thread mx-2 my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -257,7 +257,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/215/200">
                 <h3 class="subpixel-antialiased font-semibold truncate"></h3>
                 <p class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -267,7 +267,7 @@
                     viverra adipiscing at in tellus.</p>
             </div>
 
-            <div class="thread mx-2 my-1">
+            <div class="thread my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -302,7 +302,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/140/200">
                 <h3 class="subpixel-antialiased font-semibold truncate"></h3>
                 <p class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -312,7 +312,7 @@
                     viverra adipiscing at in tellus.</p>
             </div>
 
-            <div class="thread mx-2 my-1">
+            <div class="thread mx-2 my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -347,7 +347,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/220/200">
                 <h3 class="subpixel-antialiased font-semibold truncate"></h3>
                 <p class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -357,7 +357,7 @@
                     viverra adipiscing at in tellus.</p>
             </div>
 
-            <div class="thread mx-2 my-1">
+            <div class="thread mx-2 my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -392,7 +392,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/231/200">
                 <h3 class="subpixel-antialiased font-semibold truncate"></h3>
                 <p class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -402,7 +402,7 @@
                     viverra adipiscing at in tellus.</p>
             </div>
 
-            <div class="thread mx-2 my-1">
+            <div class="thread mx-2 my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -437,7 +437,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/166/200">
                 <h3 class="subpixel-antialiased font-semibold truncate"></h3>
                 <p class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -447,7 +447,7 @@
                     viverra adipiscing at in tellus.</p>
             </div>
 
-            <div class="thread mx-2 my-1">
+            <div class="thread mx-2 my-4 md:my-1">
                 <div class="hidden md:flex my-1 text-gray-500">
                     <div class="rounded-full px-1">
                         <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="Board image"
@@ -482,7 +482,7 @@
                         </svg>
                     </div>
                 </div>
-                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md"
+                <img class="cursor-pointer hover:brightness-125 rounded drop-shadow-md mx-auto"
                     src="https://placewaifu.com/image/200/200">
                 <h3 class="subpixel-antialiased font-semibold truncate"></h3>
                 <p class="text-xs line-clamp-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
