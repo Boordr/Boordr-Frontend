@@ -194,8 +194,6 @@
                <Thread></Thread>
             </div>
         </main>
-
-\
         <Footer></Footer>
     </div>
 </template>

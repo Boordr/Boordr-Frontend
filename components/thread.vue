@@ -1,6 +1,6 @@
 <template>
-         <div class="thread mx-2 my-4 md:my-1 cursor-pointer hover:border hover:rounded hover:z-10 hover:px-3 hover:drop-shadow-lg hover:bg-zinc-100">
-                    <div class="hidden md:flex my-1 text-gray-500 cursor-pointer">
+         <div class="thread my-4 md:my-1 py-2 px-2 cursor-pointer hover:border hover:rounded hover:z-10 hover:drop-shadow-lg hover:rounded-lg hover:bg-zinc-100">
+                    <div class="hidden md:flex text-gray-500 cursor-pointer">
                         <div class="rounded-full px-1">
                             <img src="https://placewaifu.com/image/18/18" class="rounded-full" alt="boord image"
                                 title="boord Name">
@@ -24,15 +24,15 @@
                                     d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
                             </svg>
                         </div>
-                        <div class="px-1">
-                            <p class="text-xs">2 replies</p>
+                        <div class="px-0.5">
+                            <p class="text-xs">100 replies</p>
                         </div>
                         <div>
                             <Menu as="div" class="relative inline-block text-left">
                                 <div>
                                     <MenuButton class="inline-flex w-full justify-center">
                                         <div id="thread-options">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-5" fill="none"
                                                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                                 <path stroke-linecap="round" stroke-linejoin="round"
                                                     d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
@@ -104,10 +104,10 @@
                             </Menu>
                         </div>
                     </div>
-                    <img class="hover:brightness-125 rounded drop-shadow-md mx-auto"
+                    <img class="rounded drop-shadow-md mx-auto"
                         src="https://placewaifu.com/image/300/200">
                     <h3 id="thread-subject" class="subpixel-antialiased font-semibold truncate mt-1">Thread subject</h3>
-                    <p id="thread-post" class="text-xs line-clamp-3 mt-1">Lorem ipsum dolor sit amet, consectetur
+                    <p id="thread-post" class="text-xs md:line-clamp-3 hover:line-clamp-none">Lorem ipsum dolor sit amet, consectetur
                         adipiscing
                         elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Molestie ac feugiat sed lectus vestibulum
