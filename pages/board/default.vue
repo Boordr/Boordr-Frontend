@@ -41,10 +41,13 @@
             </div>
         </div>
 
-
-        <div class="container mx-auto">
-            <div id="reply">
-
+        <div class="container mx-auto my-3">
+            <div class="md:grid md:grid-cols-6 md:gap-2">
+                <div class="col-span-5">
+                    <div class="my-2 mx-2 px-2 thread-container md:grid md:grid-cols-5 border">
+                       Boord Options
+                    </div>    
+                </div>
             </div>
         </div>
 

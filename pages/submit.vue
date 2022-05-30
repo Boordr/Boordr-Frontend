@@ -145,6 +145,26 @@
                                                             :class="[enabled ? 'translate-x-5' : 'translate-x-0', 'pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200']" />
                                                     </Switch>
                                                 </div>
+                                                
+                                            </div>
+
+                                             <div class="relative flex items-start py-4">
+                                                <div class="min-w-0 flex-1 text-sm">
+                                                    <label for="offers"
+                                                        class="font-medium text-gray-700">Political content <span class="inline-flex items-center px-2.5 py-0.5 rounded-sm text-xs font-medium bg-sky-100 text-sky-800"> Politics </span></label>
+                                                    <p class="text-gray-500">Please note that political boords are <span
+                                                            class="underline decoration-dashed">quarantined</span> by default. 
+                                                        These boards cannot have archived threads.</p>
+                                                </div>
+                                                <div class="ml-3 flex items-center h-5">
+                                                    <Switch v-model="enabled"
+                                                        :class="[enabled ? 'bg-indigo-600' : 'bg-gray-200', 'relative inline-flex flex-shrink-0 h-6 w-11 border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500']">
+                                                        <span class="sr-only">Use setting</span>
+                                                        <span aria-hidden="true"
+                                                            :class="[enabled ? 'translate-x-5' : 'translate-x-0', 'pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow transform ring-0 transition ease-in-out duration-200']" />
+                                                    </Switch>
+                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </fieldset>
