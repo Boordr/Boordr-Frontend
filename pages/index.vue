@@ -185,7 +185,7 @@ import Footer from '../components/footer.vue';
 import Thread from '../components/thread.vue';
 
 definePageMeta({
-    title: 'Boorder - The modern imageboord'
+    title: 'Boordr - The modern imageboord'
 })
 
 const tabs = [

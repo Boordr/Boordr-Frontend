@@ -41,12 +41,16 @@
             </div>
         </div>
 
-        <div class="container mx-auto my-3">
-            <div class="md:grid md:grid-cols-6 md:gap-2">
+        <div class="container mx-auto my-8">
+            <div class="md:grid md:grid-cols-6 md:gap-2 mx-auto ml-8 my-2">
                 <div class="col-span-5">
-                    <div class="my-2 mx-2 px-2 thread-container md:grid md:grid-cols-5 border">
-                       Boord Options
-                    </div>    
+                    <div class="thread-container md:grid md:grid-cols-5">
+                        <button type="button"
+                            class="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ">
+                            <PhotographIcon class="-ml-1 mr-3 h-5 w-5" aria-hidden="true" />
+                            New thread
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -70,12 +74,12 @@
                         <Thread></Thread>
                         <Thread></Thread>
                         <Thread></Thread>
-                    </div>    
+                    </div>
                 </div>
                 <div class="invisible md:visible">
-                     <div class="my-2 mx-2 px-2 border">
+                    <div class="my-2 mx-2 px-2 border">
                         Boord rules :^)
-                    </div>    
+                    </div>
                 </div>
             </div>
         </div>
@@ -84,7 +88,7 @@
 </template>
 
 <script setup>
-import { BookmarkIcon, BadgeCheckIcon, CogIcon } from '@heroicons/vue/outline'
+import { BookmarkIcon, BadgeCheckIcon, CogIcon, ReplyIcon, PhotographIcon } from '@heroicons/vue/outline'
 import Thread from '../../components/thread.vue';
 import Footer from '../../components/footer.vue';
 
