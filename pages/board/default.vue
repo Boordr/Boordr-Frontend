@@ -42,11 +42,9 @@
         </div>
 
         <div class="container mx-auto my-8">
-            <div class="md:grid md:grid-cols-6 md:gap-2 mx-auto ml-8 my-2">
-                <div class="col-span-5">
-                    <div class="thread-container md:grid md:grid-cols-5">
-                        <Reply></Reply>
-                    </div>
+            <div class="md:grid md:grid-cols-6 md:gap-2">
+                <div class="thread-container col-span-5 mx-auto">
+                    <Reply></Reply>
                 </div>
             </div>
         </div>
@@ -82,31 +80,31 @@
                                     <p class="text-sm text-gray-500">No Politics allowed</p>
                                 </div>
                             </li>
-                             <li class="py-4 flex">
+                            <li class="py-4 flex">
                                 <div class="ml-3">
                                     <p class="text-sm font-medium text-gray-900">Rule 1</p>
                                     <p class="text-sm text-gray-500">No Politics allowed</p>
                                 </div>
                             </li>
-                             <li class="py-4 flex">
+                            <li class="py-4 flex">
                                 <div class="ml-3">
                                     <p class="text-sm font-medium text-gray-900">Rule 1</p>
                                     <p class="text-sm text-gray-500">No Politics allowed</p>
                                 </div>
                             </li>
-                             <li class="py-4 flex">
+                            <li class="py-4 flex">
                                 <div class="ml-3">
                                     <p class="text-sm font-medium text-gray-900">Rule 1</p>
                                     <p class="text-sm text-gray-500">No Politics allowed</p>
                                 </div>
                             </li>
-                             <li class="py-4 flex">
+                            <li class="py-4 flex">
                                 <div class="ml-3">
                                     <p class="text-sm font-medium text-gray-900">Rule 1</p>
                                     <p class="text-sm text-gray-500">No Politics allowed</p>
                                 </div>
                             </li>
-                             <li class="py-4 flex">
+                            <li class="py-4 flex">
                                 <div class="ml-3">
                                     <p class="text-sm font-medium text-gray-900">Rule 1</p>
                                     <p class="text-sm text-gray-500">No Politics allowed</p>
