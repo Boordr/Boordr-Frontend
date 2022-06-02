@@ -3,7 +3,7 @@
         <NuxtLayout name="header"></NuxtLayout>
 
         <main>
-            <div class="container md:border border-[#d0d7de] rounded md:drop-shadow-sm mt-4 mx-auto bg-white">
+            <div class="container md:border border-[#d0d7de] rounded md:drop-shadow-sm mt-4 mx-auto">
                 <div class="mx-auto lg:py-3 lg:px-8">
                     <div class="flex  md:mt-0 mt-2">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mt-2" viewBox="0 0 20 20"
@@ -21,94 +21,152 @@
                     <!-- boords -->
                     <div class="py-5 px-5 md:px-0 grid grid-cols-3 md:flex md:flex-wrap">
                         <NuxtLink to="/board/default">
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-orange-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-orange-400">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Art</div>
-                        </div>
                         </NuxtLink>
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-400 hover:bg-sky-700 ">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
-                            </div>
-                            <div class=""> Anime</div>
-                        </div>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-rose-400 hover:bg-rose-700">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Programming</div>
-                        </div>
+                        </NuxtLink>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-emerald-400 hover:bg-emerald-700">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Coom</div>
-                        </div>
+                        </NuxtLink>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-orange-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-orange-400">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Art</div>
-                        </div>
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-400 hover:bg-sky-700 ">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
-                            </div>
-                            <div class=""> Anime</div>
-                        </div>
+                        </NuxtLink>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-rose-400 hover:bg-rose-700">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Programming</div>
-                        </div>
+                        </NuxtLink>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-emerald-400 hover:bg-emerald-700">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Coom</div>
-                        </div>
+                        </NuxtLink>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-orange-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-orange-400">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Art</div>
-                        </div>
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-400 hover:bg-sky-700 ">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
-                            </div>
-                            <div class=""> Anime</div>
-                        </div>
+                        </NuxtLink>
 
-                        <div
-                            class="md:flex md:space-x-1 text-sm text-center text-white font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-rose-400 hover:bg-rose-700">
-                            <div class="rounded-full hidden md:inline">
-                                <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
                             </div>
-                            <div class=""> Programming</div>
-                        </div>
+                        </NuxtLink>
+
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
+                            </div>
+                        </NuxtLink>
+
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
+                            </div>
+                        </NuxtLink>
+
+                         <NuxtLink to="/board/default">
+                            <div
+                                class="md:flex md:space-x-1 text-sm text-center text-white hover:bg-sky-700 font-medium py-3 px-3 mx-1 my-1 rounded cursor-pointer bg-sky-500">
+                                <div class="rounded-full hidden md:inline">
+                                    <img src="https://placewaifu.com/image/25/25" class="rounded-full" alt="boord-icon">
+                                </div>
+                                <div> Anime</div>
+                            </div>
+                        </NuxtLink>
                     </div>
                 </div>
             </div>
+
+            <!-- Site Stats -->
+            <div class="container mx-auto my-3 hidden">
+                <div>
+                    <dl
+                        class="mt-5 border border-[#d0d7de] grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-gray-200 md:grid-cols-3 md:divide-y-0 md:divide-x">
+                        <div v-for="item in stats" :key="item.name" class="px-4 py-5 sm:p-6">
+                            <dt class="text-base font-normal text-gray-900">
+                                {{ item.name }}
+                            </dt>
+                            <dd class="mt-1 flex justify-between items-baseline md:block lg:flex">
+                                <div class="flex items-baseline text-2xl font-semibold text-indigo-600">
+                                    {{ item.stat }}
+                                    <span class="ml-2 text-sm font-medium text-gray-500"> from {{ item.previousStat }}
+                                    </span>
+                                </div>
+
+                                <div
+                                    :class="[item.changeType === 'increase' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800', 'inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0']">
+                                    <ArrowSmUpIcon v-if="item.changeType === 'increase'"
+                                        class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-green-500"
+                                        aria-hidden="true" />
+                                    <ArrowSmDownIcon v-else
+                                        class="-ml-1 mr-0.5 flex-shrink-0 self-center h-5 w-5 text-red-500"
+                                        aria-hidden="true" />
+                                    <span class="sr-only"> {{ item.changeType === 'increase' ? 'Increased' : 'Decreased'
+                                    }} by </span>
+                                    {{ item.change }}
+                                </div>
+                            </dd>
+                        </div>
+                    </dl>
+                </div>
+            </div>
+
 
             <!-- Thread Tab Options -->
             <div id="thread-tab-options" class="px-5 md:px-0">
@@ -157,23 +215,23 @@
 
             <!-- Threads -->
             <div class="my-2 mx-2 px-2 thread-container md:grid md:grid-cols-6">
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
-               <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
+                <Thread></Thread>
             </div>
         </main>
         <Footer></Footer>
@@ -181,12 +239,19 @@
 </template>
 
 <script setup>
+import { ArrowSmDownIcon, ArrowSmUpIcon } from '@heroicons/vue/solid'
 import Footer from '../components/footer.vue';
 import Thread from '../components/thread.vue';
 
 definePageMeta({
     title: 'Boordr - The modern imageboord'
 })
+
+const stats = [
+    { name: 'Total Posts', stat: '71,897' },
+    { name: 'Total Boards', stat: '71,897' },
+    { name: 'Total users', stat: '71,897' },
+]
 
 const tabs = [
     { name: 'Trending', href: '#', current: true },

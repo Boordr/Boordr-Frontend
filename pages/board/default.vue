@@ -17,7 +17,7 @@
                                 <BadgeCheckIcon class="w-6 h-6 mt-1 text-indigo-500"></BadgeCheckIcon>
                             </div>
                             <div>
-                                <h1 class="text-2xl font-bold text-gray-900 break-words">
+                                <h1 class="text-2xl ml-0.5 font-bold text-gray-900 break-words">
                                     Anime - Lorem ipsum dolor sit amet consectetur.
                                 </h1>
                             </div>
@@ -45,11 +45,7 @@
             <div class="md:grid md:grid-cols-6 md:gap-2 mx-auto ml-8 my-2">
                 <div class="col-span-5">
                     <div class="thread-container md:grid md:grid-cols-5">
-                        <button type="button"
-                            class="inline-flex items-center px-6 py-3 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 ">
-                            <PhotographIcon class="-ml-1 mr-3 h-5 w-5" aria-hidden="true" />
-                            New thread
-                        </button>
+                        <Reply></Reply>
                     </div>
                 </div>
             </div>
@@ -76,9 +72,47 @@
                         <Thread></Thread>
                     </div>
                 </div>
-                <div class="invisible md:visible">
-                    <div class="my-2 mx-2 px-2 border">
-                        Boord rules :^)
+                <div class="invisible md:visible mt-3">
+                    <div class="my-2 mx-2 px-2 border border-[#d0d7de] rounded drop-shadow-sm">
+                        <h3 class="my-2">Boord Rules</h3>
+                        <ul role="list" class="divide-y divide-gray-200">
+                            <li class="py-4 flex">
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Rule 1</p>
+                                    <p class="text-sm text-gray-500">No Politics allowed</p>
+                                </div>
+                            </li>
+                             <li class="py-4 flex">
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Rule 1</p>
+                                    <p class="text-sm text-gray-500">No Politics allowed</p>
+                                </div>
+                            </li>
+                             <li class="py-4 flex">
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Rule 1</p>
+                                    <p class="text-sm text-gray-500">No Politics allowed</p>
+                                </div>
+                            </li>
+                             <li class="py-4 flex">
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Rule 1</p>
+                                    <p class="text-sm text-gray-500">No Politics allowed</p>
+                                </div>
+                            </li>
+                             <li class="py-4 flex">
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Rule 1</p>
+                                    <p class="text-sm text-gray-500">No Politics allowed</p>
+                                </div>
+                            </li>
+                             <li class="py-4 flex">
+                                <div class="ml-3">
+                                    <p class="text-sm font-medium text-gray-900">Rule 1</p>
+                                    <p class="text-sm text-gray-500">No Politics allowed</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -88,7 +122,7 @@
 </template>
 
 <script setup>
-import { BookmarkIcon, BadgeCheckIcon, CogIcon, ReplyIcon, PhotographIcon } from '@heroicons/vue/outline'
+import { BookmarkIcon, BadgeCheckIcon, CogIcon, } from '@heroicons/vue/outline'
 import Thread from '../../components/thread.vue';
 import Footer from '../../components/footer.vue';
 
